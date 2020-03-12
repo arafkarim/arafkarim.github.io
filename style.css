@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Lato|Berkshire+Swash|Poiret+One|Princess+Sofia');
+/*
+font-family: 'Princess Sofia', cursive;
+font-family: 'Baloo Tammudu', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+*{margin: 0; padding: 0;}
+
+body{
+  background: #c44032;
+}
+
+#the_name{
+  font-size: 11vw;
+  font-family: 'Baloo Tammudu', cursive;
+  text-align: center;
+  color: #f4f1de;
+  width: 100%;
+  line-height: 0;
+  margin: 9% 0 13%;
+  text-shadow: #863027 0.01em 0.01em 0,
+               #863027 0.02em 0.02em 0,
+               #863027 0.03em 0.03em 0,
+               #863027 0.04em 0.04em 0,
+               #863027 0.05em 0.05em 0,
+               #863027 0.06em 0.06em 0,
+               #863027 0.07em 0.07em 0,
+               #863027 0.08em 0.08em 0,
+               #863027 0.09em 0.09em 0,
+               #863027 0.1em 0.1em 0;
+}
+#tag_line{
+  font-size: 4vw;
+  background: #863027;
+  color: #F4F1DE;
+  text-align: center;
+  padding: 20px;
+  border: 5px solid #c44032;
+  outline: 5px solid #863027;
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Berkshire Swash', cursive;
+  position: relative;
+  margin-top: -8%;
+}
+#about {
+  font-size: 2.1em;
+  color: #F4F1DE;
+  font-family: 'Poiret One', cursive;
+  width: 50%;
+  margin: 3% auto;
+  text-align: center;
+}
+#about a {
+  color: #F4F1DE;
+  text-decoration: none;
+}
+#about a:hover {
+    text-decoration: underline;
+}
+.social{
+  text-align: center;
+  padding: 15px 0;
+  width: 350px;
+  margin: 0 auto;
+}
+.social ul{
+  list-style-type: none;
+  padding: 0;
+}
+.social ul li{
+  display: inline-block
+}
+.social ul li a{
+  color: #F4F1DE;
+  background: #863027;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+.social span{
+  font-size: 12px;
+  color: #F4F1DE;
+  padding: 20px 0 0;
+  display: block;
+  font-family: 'Lato', sans-serif;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: visible;
+    width: 82px;
+    background-color: rgba(0,0,0,0.7);
+    color: #F4F1DE;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    top: 11px;
+    left: 114%;
+    line-height: 30px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgba(0,0,0,0.7) transparent transparent;
+}
+
+/* RESPONSIVE STYLE */
+@media screen and (max-width: 768px){
+  #about{font-size: 1.6em;}
+}
+@media screen and (max-width: 500px) {
+  .creator {display: none;}
+}
